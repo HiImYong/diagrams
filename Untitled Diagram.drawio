@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T02:23:17.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="18.0.2" etag="QuY3jcDJzT-E-gdwO3se" type="github"><diagram id="NPFsqB44y0v2ecBJwlY3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-12T02:54:09.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="jQOq9HS_1g_Y3Vz3qJnR" version="18.0.2" type="github">
+  <diagram id="NPFsqB44y0v2ecBJwlY3" name="Page-1">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fisEKcdaARFLmrejdQHy-31" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="650" width="510" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="700" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-13" value="asgi.py&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;application&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ProtocolTypeRouter&lt;/span&gt;({&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="225" y="70" width="490" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-2" value="HTTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-3" value="웹소켓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-5" value="&lt;span style=&quot;background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;http&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;django_asgi_app&lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fisEKcdaARFLmrejdQHy-6" target="fisEKcdaARFLmrejdQHy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-6" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;websocket&quot;&lt;/span&gt;: &lt;span style=&quot;color: #dcdcaa;&quot;&gt;AllowedHostsOriginValidator&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;AuthMiddlewareStack&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;URLRouter&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;chat&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;routing&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;websocket_urlpatterns&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fisEKcdaARFLmrejdQHy-2" target="fisEKcdaARFLmrejdQHy-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="269.5" as="sourcePoint" />
+            <mxPoint x="260" y="269.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fisEKcdaARFLmrejdQHy-12" target="fisEKcdaARFLmrejdQHy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-12" value="routing.py&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;websocket_urlpatterns&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;re_path&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;ws/chat/(?P&amp;lt;room_name&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;\w&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;)/&lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;&lt;/span&gt;, &lt;span style=&quot;color: #4ec9b0;&quot;&gt;consumers&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;ChatConsumer&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;as_asgi&lt;/span&gt;()),&lt;/div&gt;&lt;div&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fisEKcdaARFLmrejdQHy-14" target="fisEKcdaARFLmrejdQHy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-14" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;consumer.py&lt;br&gt;class&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;ChatConsumer&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AsyncWebsocketConsumer&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fisEKcdaARFLmrejdQHy-18" target="fisEKcdaARFLmrejdQHy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-18" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; async &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;def&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;connect&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="720" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-19" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; async &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;def&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;disconnect&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;close_code&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="750" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-21" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; async &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;def&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;receive&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;text_data&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="780" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-22" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; async &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;def&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;chat_message&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;self&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;event&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="810" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-26" value="channel name : c1&lt;br&gt;group name : g1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-32" value="channel name : c2&lt;br&gt;group name : g1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fisEKcdaARFLmrejdQHy-33" value="channel name : c3&lt;br&gt;group name : g1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
