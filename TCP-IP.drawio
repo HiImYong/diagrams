@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T07:03:11.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="lHHrZHycDNu3nG0Uspqz" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T07:06:04.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="th9squwOVkToQi7M6ZRd" version="18.0.3" type="github">
   <diagram id="3iJboqYfilJ0szctq5U6" name="Page-1">
     <mxGraphModel dx="2500" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
         <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-125" value="네트워크&lt;br&gt;- 패킷 (IP)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1780" y="346" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-126" value="데이터링크&lt;br&gt;- 프레임&lt;br&gt;(이더넷 : MAC 정보)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-126" value="데이터링크&lt;br&gt;- 프레임&lt;br&gt;(이더넷 MAC)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1780" y="406" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jlv6tlQgSIHZSu_hJbBJ-127">
@@ -406,7 +406,7 @@
         </mxCell>
         <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-184" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1920" y="126" as="sourcePoint" />
+            <mxPoint x="1920" y="80" as="sourcePoint" />
             <mxPoint x="1920" y="466" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -619,6 +619,18 @@
         </mxCell>
         <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-269" value="세그먼트" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1925" y="307.32" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-270" value="인캡슐레이션" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="60" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-271" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFFF33;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2660" y="460" as="sourcePoint" />
+            <mxPoint x="2660" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jlv6tlQgSIHZSu_hJbBJ-272" value="디캡슐레이션" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2615" y="60" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
