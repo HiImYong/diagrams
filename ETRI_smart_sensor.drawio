@@ -1,1 +1,203 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T02:42:54.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="18.0.7" etag="eWDJ85-MT72bNk1jKfZ9" type="github"><diagram id="MzFicAQLVDI_cGvtkar0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:18:24.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JFa9-5TDnx1OGP9uAFZ0" version="18.0.7" type="github">
+  <diagram id="MzFicAQLVDI_cGvtkar0" name="Page-1">
+    <mxGraphModel dx="1401" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-58" value="views" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="280" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-8" value="titles.xml" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="930" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-2" value="title" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-3" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-4" value="menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-5" value="importStylesheets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-6" value="importJavascripts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-7" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-24" value="" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700" y="560" width="240" height="390" as="geometry" />
+        </mxCell>
+        <UserObject label="management.upsert.scenario" link="management.upsert.scenario" id="Hx5KmIL_yOUIcQr_x3xt-25">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="180" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.controlServer" link="setup.controlServer" id="Hx5KmIL_yOUIcQr_x3xt-26">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="210" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.update" link="setup.update" id="Hx5KmIL_yOUIcQr_x3xt-27">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="240" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.performance" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-28">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="270" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.gateway" link="setup.gateway" id="Hx5KmIL_yOUIcQr_x3xt-29">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="300" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="error" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-30">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="330" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label=".*.*" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-31">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="360" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-32" value="control.main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-33" value="management.main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-34" value="management.update.unitspace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="management.upsert.group" id="Hx5KmIL_yOUIcQr_x3xt-35">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="90" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="management.upsert.scene" link="management.upsert.scene" id="Hx5KmIL_yOUIcQr_x3xt-36">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="120" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="management.upsert.schedule" link="management.upsert.schedule" id="Hx5KmIL_yOUIcQr_x3xt-37">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hx5KmIL_yOUIcQr_x3xt-24">
+            <mxGeometry y="150" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-38" value="tiles.xml 내부 body definition name" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="347" y="500" width="280" height="470" as="geometry" />
+        </mxCell>
+        <UserObject label="management.upsert.scenario" link="management.upsert.scenario" id="Hx5KmIL_yOUIcQr_x3xt-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="740" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.controlServer" link="setup.controlServer" id="Hx5KmIL_yOUIcQr_x3xt-17">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="770" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.update" link="setup.update" id="Hx5KmIL_yOUIcQr_x3xt-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="800" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.performance" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-19">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="830" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="setup.gateway" link="setup.gateway" id="Hx5KmIL_yOUIcQr_x3xt-20">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="860" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="error" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-21">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="367" y="890" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label=".*.*" link="setup.performance" id="Hx5KmIL_yOUIcQr_x3xt-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="367" y="920" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-9" value="control.main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="560" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-10" value="management.main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="590" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-11" value="management.update.unitspace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="620" width="240" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="management.upsert.group" id="Hx5KmIL_yOUIcQr_x3xt-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="650" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="management.upsert.scene" link="management.upsert.scene" id="Hx5KmIL_yOUIcQr_x3xt-13">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="680" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="management.upsert.schedule" link="management.upsert.schedule" id="Hx5KmIL_yOUIcQr_x3xt-14">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="367" y="710" width="240" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-40" value="auth.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="530" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-56" value="control.main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="530" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-59" value="LED GW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-60" value="/WEB-INF/views/template-bootstrap/header.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-61" value="/WEB-INF/views/template-bootstrap/menu.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-62" value="/WEB-INF/views/template-bootstrap/import-stylesheets.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-63" value="/WEB-INF/views/template-bootstrap/body.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-64" value="/WEB-INF/views/template-bootstrap/import-javascripts.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-65" value="bootstrapTemplate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-68" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-69" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-70" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-71" value="auth.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-73" value="/WEB-INF/views/template-bootstrap/template.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Hx5KmIL_yOUIcQr_x3xt-74" value="/WEB-INF/views/auth.jsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
