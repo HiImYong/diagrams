@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T09:07:49.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6Q_Y88Oss9kzj2GwHJoH" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-20T01:27:15.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="R-o1eSswnUBRtCYjjm2W" version="18.0.7" type="github">
   <diagram id="MzFicAQLVDI_cGvtkar0" name="Page-1">
     <mxGraphModel dx="1673" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
         <mxCell id="lAMjxFeC6OFQzj6104G1-4" value="Client&lt;br&gt;브라우저&lt;br&gt;(클라이언트 : 휘발성)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lAMjxFeC6OFQzj6104G1-6" value="URL&lt;br&gt;+&lt;br&gt;BODY(json)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lAMjxFeC6OFQzj6104G1-6" value="CLIENT JS&lt;br&gt;&lt;br&gt;URL&lt;br&gt;+&lt;br&gt;BODY(json)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="202.5" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="lAMjxFeC6OFQzj6104G1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="lAMjxFeC6OFQzj6104G1-4" target="lAMjxFeC6OFQzj6104G1-6">
